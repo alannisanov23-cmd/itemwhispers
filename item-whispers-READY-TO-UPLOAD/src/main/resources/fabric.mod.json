@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "itemwhispers",
+  "version": "${version}",
+  "name": "Item Whispers",
+  "description": "Your tools talk to you: short in-character lines above the hotbar when you equip them, while you idle, when they get a new enchantment, and when they're nearly broken.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["dev.itemwhispers.ItemWhispersClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.5",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
